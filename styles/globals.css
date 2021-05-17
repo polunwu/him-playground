@@ -14,3 +14,44 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.file-input-wrapper,
+.camera-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.capture-output {
+  display: block;
+  width: 80vw;
+  border: 1px solid gray;
+  margin-top: 1rem;
+}
+
+.upload-btn,
+.capture-btn {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
+
+.upload-btn input {
+  display: none;
+}
+
+#player {
+  width: 90vw;
+  height: 90vw;
+  background-color: darkgrey;
+  border: 1px solid orange;
+  object-fit: cover;
+}
+
+#canvas {
+  display: none;
+}
+#canvas.show {
+  display: block;
+}
