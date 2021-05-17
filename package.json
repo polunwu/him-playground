@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "next build && next export && push-dir --dir=build --branch=gh-pages"
+    "deploy": "next build && next export && push-dir --dir=out --branch=gh-pages"
   },
   "dependencies": {
     "next": "10.2.0",
